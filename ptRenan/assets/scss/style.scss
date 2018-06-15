@@ -1,0 +1,37 @@
+#menu{
+    justify-content: flex-end;
+}
+#imgInicio img{
+    width:100%;
+}
+#bio {
+    padding-top: 2rem;
+    background-image: url(http://www.terramagazine.com.br/wp-content/uploads/2016/02/1djlucas_0214.gif?x48239);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    height: 650px;
+
+    h1{
+   
+    }
+    p{
+        margin-top: 2rem;
+    }
+}
+#schedule{
+    padding:2rem;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url(https://cdn.phouse.com.br/wp-content/uploads/2015/05/22135511/vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 680px;
+    height: 680px;
+    color: aliceblue;
+    h2{
+        padding: 2rem;
+    }
+}
+#days{
+    margin: 2rem;
+    p{
+        margin-top: -1rem;
+    }
+}

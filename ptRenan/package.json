@@ -1,0 +1,16 @@
+{
+  "name": "ptrenan",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renan , Camila , Vanderley",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
