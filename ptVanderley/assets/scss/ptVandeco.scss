@@ -1,0 +1,93 @@
+#menu{
+    justify-content: flex-end;
+}
+#imgInicio img{
+    width:100%;
+}
+#bio {
+    padding-top: 2rem;
+    background-image: url(http://www.terramagazine.com.br/wp-content/uploads/2016/02/1djlucas_0214.gif?x48239);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    height: 650px;
+    p{
+        margin-top: 2rem;
+    }
+}
+#schedule{
+    padding:2rem;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url(https://cdn.phouse.com.br/wp-content/uploads/2015/05/22135511/vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 680px;
+    color: aliceblue;
+    h2{
+        padding: 2rem;
+        &::after{
+            content:"";
+            //background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width="250" height="150">
+            //<line x1="20" y1="20" x2="240" y2="120" stroke-width="2" stroke="white" /></svg>");
+        }
+    }
+}
+#days{
+    margin: 2rem;
+    p{
+        margin-top: -1rem;
+    }
+}
+
+#download{
+    background-image: url(http://www.mag360.com.br/wp-content/uploads/2017/11/vintage-culture-lanca-memories-nova-faixa-em-parceria-com-clubbers-e1511458352468.jpg);
+    background-size: 100% 100%;
+    height: 780px;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    img{
+        margin-top: 2rem;
+        height: 500px;
+        width: 500px;
+    }
+    a{
+        background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url(https://cdn.phouse.com.br/wp-content/uploads/2015/05/22135511/vintage.jpg);
+        text-decoration: none;
+        color: white;
+        margin: 1rem;
+    }
+    button{
+        margin: 1rem;
+    }
+}
+#cadastro{
+    background-image: url(https://playbpm.com.br/wp-content/uploads/2017/06/vintage--960x640.jpg);
+    background-size:100% 100%;
+    height: 768px;
+    padding-left: 5rem;
+    label{
+        font-weight: bold;
+        color:black;
+    }
+    h2{
+        padding-top:4rem;
+        color: white;
+        margin-bottom: 3rem;
+        margin-left:-4rem;
+    }
+}
+#contact{
+    background-image: url(http://www.plugtronic.com/wp-content/uploads/2016/11/14657332_1214881255242782_6566450246360937257_n.jpg);
+    background-size: 100% 100%;
+    color: white;
+    h2{
+        padding: 2rem;
+    }
+    button{
+        margin: 2rem;
+    }
+}
+
+#video{
+    h2{
+        padding-bottom:2rem;
+    }
+}
