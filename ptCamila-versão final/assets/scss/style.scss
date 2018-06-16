@@ -1,0 +1,114 @@
+$tamPadding:2rem;
+$tamMargin: 2rem;
+
+#imgInicio img{
+    width:100%;
+}
+#bio {
+    padding-top:$tamPadding ;
+    background-image: url("http://www.terramagazine.com.br/wp-content/uploads/2016/02/1djlucas_0214.gif?x48239");
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    height: 650px;
+    p{
+        margin-top: $tamMargin;
+    }
+    @media only screen and (max-width: 900px) {
+        background-image: linear-gradient(rgba(7, 7, 7, 0.74), rgba(0, 0, 0, 0.74)), url("http://www.terramagazine.com.br/wp-content/uploads/2016/02/1djlucas_0214.gif?x48239");
+        background-repeat: no-repeat;
+        background-position:left bottom;
+        color: aliceblue;
+    }
+}
+
+#schedule{
+    padding:2rem;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url("https://cdn.phouse.com.br/wp-content/uploads/2015/05/22135511/vintage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 680px;
+    color: aliceblue;
+    h2{
+        padding:$tamPadding;
+    }
+}
+
+#days{
+    margin: $tamMargin;
+    p{
+        margin-top: -1rem;
+    }
+}
+#video{
+    background: linear-gradient(rgba(133, 132, 132, 0.651),rgba(252, 248, 248, 0.945));
+    height: 630px;
+    padding: $tamPadding;
+}
+#download{
+    background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)),url("http://www.mag360.com.br/wp-content/uploads/2017/11/vintage-culture-lanca-memories-nova-faixa-em-parceria-com-clubbers-e1511458352468.jpg");
+    background-size: 100% 100%;
+    height: 780px;
+    background-repeat: no-repeat;
+    padding: $tamPadding;
+    img{
+        margin-top: $tamMargin;
+        height: 500px;
+        width: 500px;
+    }
+    a{
+        background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url("https://cdn.phouse.com.br/wp-content/uploads/2015/05/22135511/vintage.jpg");
+        text-decoration: none;
+        color: white;
+        margin: 1rem;
+    }
+}
+#btnDownload{
+    margin-left: -4rem
+}
+#cadastro{
+    background-image:linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)), url("https://playbpm.com.br/wp-content/uploads/2017/06/vintage--960x640.jpg");
+    background-size:100% 100%;
+    height: 768px;
+    padding-left: 5rem;
+    label{
+        font-weight: bold;
+        color:black;
+    }
+    h2{
+        padding-top:4rem;
+        color: white;
+        margin-bottom: 3rem;
+        margin-left:-4rem;
+    }
+}
+#contact{
+    background-image: linear-gradient(rgba(7, 7, 7, 0.54), rgba(0, 0, 0, 0.54)),url("http://www.plugtronic.com/wp-content/uploads/2016/11/14657332_1214881255242782_6566450246360937257_n.jpg");
+    background-size: 100% 100%;
+    color: white;
+    h2{
+        padding: $tamPadding;
+    }
+    button{
+        margin: $tamMargin;
+    }
+}
+#rodape{
+    background: linear-gradient(rgba(133, 132, 132, 0.651),rgba(252, 252, 252, 0.945));
+    height: 100%;
+    img{
+        width: 30px;
+        height: 30px;
+        margin:5px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+#video{
+    h2{
+        padding-bottom:$tamPadding;
+    }
+}
+#myCarousel{
+    margin-left: 20%;
+}
